@@ -1,5 +1,5 @@
 ---
 applications:
- - name: GetStartedNode
+ - name: wat-vr_sp
    random-route: true
    memory: 256M

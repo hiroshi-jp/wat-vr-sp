@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-default .navbar-nav>li>a {
+    color: #A6E3DC;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+	background-color: #74a7d9;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0 0 50px 0;
+}
+
+#header {
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.logo_nw {
+	line-height: 0;
+	font-size: .0000em;	
+	padding: 8px 0;
+}
+
+.logo_ibm_bm {
+	background-color: #FFFFFF;
+	line-height: 0;
+	font-size: .0000em;
+	padding: 5px 0;
+}
+
+.page_title {
+	margin: 20px auto 10px;
+	text-align: center;
+	font-size: 160%;
+	font-weight: bold;
+	line-height: 1.4em;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+	color: #10354b;
+}
+
+.page_title .text_s {
+	font-weight: normal;
+	font-size: 70%;
+}
+
+.text01 {
+	margin: 20px auto 0;
+}
+
+.text02 {
+	margin: 20px auto 5px;
+	font-size: 110%;
+	font-weight: bold;
+	color: #10354b;
+}
+
+.text03 {
+	margin: 10px auto;
+	font-size: 140%;
+	font-weight: bold;
+}
+
+
+.button {
+	height: 30px;
+	font-size: 100%;
+	margin: 10px auto;
+}
+
+.cb{
+  clear: both;
+}
+
+button {
+	width: 150px;
+	height: 40px;
+	background-color: transparent;
+	border: #10354b solid 1px;
+	color: #10354b;
+	font-size: 100%;
+	margin: 10px;
+	font-family: Arial, Helvetica, "sans-serif";
+}
+
+button:hover {
+	background-color: #10354b;
+	color: #fff;
+}
+
+/*しばらくお待ちください*/
+.blinking {
+	-webkit-animation: blink 1.0s ease-in-out infinite alternate;
+    -moz-animation: blink 1.0s ease-in-out infinite alternate;
+    animation: blink 1.0s ease-in-out infinite alternate;
+	font-weight: bold;
+	color: #f8f35d;
+	font-size: 180%;"
+}
+
+@-webkit-keyframes blink {
+	0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-moz-keyframes blink {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes blink {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/*Waiting画像*/
+#loading {
+	width: 250px;
+	height: 250px;
+	margin: -35px 0 0 -380px;
+	padding: 5px;
+	background: #fff;
+	opacity: 0.5;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index: 999;
+  /*border-radius: 15px;*/
+  /*border-radius: 50%;*/
+}
+
+.message01 {
+	color: #fcff0f;
+	font-weight: bold;
+	font-size: 110%;
+	line-height: 1.5em;
+}
+
+.kekka_title {
+	background-color: #10354b;
+	color: #fff;
+	font-size: 140%;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 8px;
+	text-align: center;
+}
+
+
+.kekka {
+	font-size: 200%;
+	font-weight: bold;
+	color: #fff;
+	margin: 10px;
+}
+
+.icon {
+	margin: 0 auto;
+}
+
+.other_kekka {
+	font-weight: normal;
+	font-size: 110%;
+	color: #fff;
+	padding-bottom: 50px;
+}
